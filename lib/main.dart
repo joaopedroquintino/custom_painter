@@ -55,7 +55,7 @@ class HomeCustomPainter extends StatelessWidget {
                 painter: ChatPainter(),
                 child: Container(
                   padding: EdgeInsets.fromLTRB(15, 10, 10, 10),
-                  child: Text('Olá, bem vindo ao mundo do Flutter'),
+                  child: Text('No enough cash, stranger!'),
                 ),
               ),
             ),
