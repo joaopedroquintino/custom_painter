@@ -52,15 +52,21 @@ class HomeCustomPainter extends StatelessWidget {
             Container(
               padding: EdgeInsets.all(10),
               child: CustomPaint(
-                size: Size(120, 30),
                 painter: ChatPainter(),
+                child: Container(
+                  padding: EdgeInsets.fromLTRB(15, 10, 10, 10),
+                  child: Text('Olá, bem vindo ao mundo do Flutter'),
+                ),
               ),
             ),
             Container(
               padding: EdgeInsets.all(10),
               child: CustomPaint(
-                size: Size(120, 120),
                 painter: FacePainter(),
+                child: Container(
+                  height: 120,
+                  width: 120,
+                ),
               ),
             ),
           ],
